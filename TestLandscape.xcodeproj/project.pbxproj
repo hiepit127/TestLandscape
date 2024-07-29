@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40E750332C57807900CFD812 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E7502D2C57807900CFD812 /* TestViewController.xib */; };
+		40E750342C57807900CFD812 /* LandscapeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7502E2C57807900CFD812 /* LandscapeDelegate.swift */; };
+		40E750352C57807900CFD812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E7502F2C57807900CFD812 /* Assets.xcassets */; };
+		40E750362C57807900CFD812 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E750302C57807900CFD812 /* TestViewController.swift */; };
+		5349213B8521F2C90C55AC71 /* Pods_TestLandscape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F6949EE5D95161A0741D95 /* Pods_TestLandscape.framework */; };
 		FCB83D4C2C500DA600105972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB83D4B2C500DA600105972 /* AppDelegate.swift */; };
-		FCB83D4E2C500DA600105972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB83D4D2C500DA600105972 /* SceneDelegate.swift */; };
 		FCB83D502C500DA600105972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB83D4F2C500DA600105972 /* ViewController.swift */; };
 		FCB83D532C500DA600105972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCB83D522C500DA600105972 /* Base */; };
-		FCB83D552C500DA700105972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB83D542C500DA700105972 /* Assets.xcassets */; };
 		FCB83D582C500DA700105972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCB83D572C500DA700105972 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40E7502D2C57807900CFD812 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		40E7502E2C57807900CFD812 /* LandscapeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeDelegate.swift; sourceTree = "<group>"; };
+		40E7502F2C57807900CFD812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E750302C57807900CFD812 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		673F517B33AD099967373C0C /* Pods-TestLandscape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLandscape.debug.xcconfig"; path = "Target Support Files/Pods-TestLandscape/Pods-TestLandscape.debug.xcconfig"; sourceTree = "<group>"; };
+		77F6949EE5D95161A0741D95 /* Pods_TestLandscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLandscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA626ACDF4D8FDDDADEBA97 /* Pods-TestLandscape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLandscape.release.xcconfig"; path = "Target Support Files/Pods-TestLandscape/Pods-TestLandscape.release.xcconfig"; sourceTree = "<group>"; };
 		FCB83D482C500DA600105972 /* TestLandscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLandscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB83D4B2C500DA600105972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCB83D4D2C500DA600105972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCB83D4F2C500DA600105972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCB83D522C500DA600105972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCB83D542C500DA700105972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB83D572C500DA700105972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB83D592C500DA700105972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5349213B8521F2C90C55AC71 /* Pods_TestLandscape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640B2C8B7110668E0150C823 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673F517B33AD099967373C0C /* Pods-TestLandscape.debug.xcconfig */,
+				9AA626ACDF4D8FDDDADEBA97 /* Pods-TestLandscape.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F361CE9788F35DB48CD18334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F6949EE5D95161A0741D95 /* Pods_TestLandscape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCB83D3F2C500DA600105972 = {
 			isa = PBXGroup;
 			children = (
 				FCB83D4A2C500DA600105972 /* TestLandscape */,
 				FCB83D492C500DA600105972 /* Products */,
+				640B2C8B7110668E0150C823 /* Pods */,
+				F361CE9788F35DB48CD18334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +84,13 @@
 		FCB83D4A2C500DA600105972 /* TestLandscape */ = {
 			isa = PBXGroup;
 			children = (
+				40E7502F2C57807900CFD812 /* Assets.xcassets */,
+				40E7502E2C57807900CFD812 /* LandscapeDelegate.swift */,
+				40E750302C57807900CFD812 /* TestViewController.swift */,
+				40E7502D2C57807900CFD812 /* TestViewController.xib */,
 				FCB83D4B2C500DA600105972 /* AppDelegate.swift */,
-				FCB83D4D2C500DA600105972 /* SceneDelegate.swift */,
 				FCB83D4F2C500DA600105972 /* ViewController.swift */,
 				FCB83D512C500DA600105972 /* Main.storyboard */,
-				FCB83D542C500DA700105972 /* Assets.xcassets */,
 				FCB83D562C500DA700105972 /* LaunchScreen.storyboard */,
 				FCB83D592C500DA700105972 /* Info.plist */,
 			);
@@ -74,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCB83D5C2C500DA700105972 /* Build configuration list for PBXNativeTarget "TestLandscape" */;
 			buildPhases = (
+				E5C62A061F6B1175D1F3A325 /* [CP] Check Pods Manifest.lock */,
 				FCB83D442C500DA600105972 /* Sources */,
 				FCB83D452C500DA600105972 /* Frameworks */,
 				FCB83D462C500DA600105972 /* Resources */,
@@ -125,13 +156,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB83D552C500DA700105972 /* Assets.xcassets in Resources */,
 				FCB83D582C500DA700105972 /* Base in Resources */,
+				40E750352C57807900CFD812 /* Assets.xcassets in Resources */,
+				40E750332C57807900CFD812 /* TestViewController.xib in Resources */,
 				FCB83D532C500DA600105972 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5C62A061F6B1175D1F3A325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestLandscape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCB83D442C500DA600105972 /* Sources */ = {
@@ -139,8 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB83D502C500DA600105972 /* ViewController.swift in Sources */,
+				40E750342C57807900CFD812 /* LandscapeDelegate.swift in Sources */,
+				40E750362C57807900CFD812 /* TestViewController.swift in Sources */,
 				FCB83D4C2C500DA600105972 /* AppDelegate.swift in Sources */,
-				FCB83D4E2C500DA600105972 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +345,13 @@
 		};
 		FCB83D5D2C500DA700105972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673F517B33AD099967373C0C /* Pods-TestLandscape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N584357TB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLandscape/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +359,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,11 +375,13 @@
 		};
 		FCB83D5E2C500DA700105972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA626ACDF4D8FDDDADEBA97 /* Pods-TestLandscape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N584357TB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLandscape/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +389,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
